@@ -35,7 +35,7 @@
         parent="Keyboard"
     >
         <!-- This should be aligned with KeyboardSwitcher.KEYBOARD_THEMES[] -->
-        <item name="themeId">2</item>
+        <item name="themeId">0</item>
         <item name="keyboardTopPadding">@fraction/keyboard_top_padding_holo</item>
         <item name="keyboardBottomPadding">@fraction/keyboard_bottom_padding_holo</item>
         <item name="horizontalGap">@fraction/key_horizontal_gap_holo</item>
@@ -65,10 +65,10 @@
     >
         <item name="keyPreviewLayout">@layout/key_preview_ics</item>
         <item name="keyPreviewOffset">@dimen/key_preview_offset_holo</item>
-        <item name="gestureFloatingPreviewTextColor">@color/highlight_color_ics</item>
+        <item name="gestureFloatingPreviewTextColor">@color/highlight_color_holo</item>
         <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_holo</item>
-        <item name="gestureTrailColor">@color/highlight_color_ics</item>
-        <item name="slidingKeyInputPreviewColor">@color/highlight_translucent_color_ics</item>
+        <item name="gestureTrailColor">@color/highlight_color_holo</item>
+        <item name="slidingKeyInputPreviewColor">@color/highlight_translucent_color_holo</item>
         <item name="autoCorrectionSpacebarLedEnabled">false</item>
         <item name="autoCorrectionSpacebarLedIcon">@drawable/sym_keyboard_space_led_holo</item>
         <item name="spacebarTextColor">@color/spacebar_text_color_holo</item>
