@@ -651,7 +651,7 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
             // In transient state.
             return;
         }
-        getLocationInWindow(mOriginCoords);
+        getLocationOnScreen(mOriginCoords);
         final DisplayMetrics dm = getResources().getDisplayMetrics();
         if (CoordinateUtils.y(mOriginCoords) < dm.heightPixels / 4) {
             // In transient state.
